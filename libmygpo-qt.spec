@@ -17,7 +17,9 @@ BuildRequires:	QtTest-devel
 BuildRequires:	automoc4
 BuildRequires:	cmake >= 2.6.2
 BuildRequires:	doxygen
+BuildRequires:	pkgconfig
 BuildRequires:	qjson-devel
+BuildRequires:	qt4-build
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
