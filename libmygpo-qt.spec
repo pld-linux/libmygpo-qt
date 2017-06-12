@@ -8,7 +8,7 @@ Summary:	Qt4 library that wraps the gpodder.net Web API
 Summary(pl.UTF-8):	Biblioteka Qt4 obudowująca API WWW gpodder.net
 Name:		libmygpo-qt
 Version:	1.0.9
-Release:	1
+Release:	2
 License:	LGPL v2+
 Source0:	http://stefan.derkits.at/files/libmygpo-qt/%{name}.%{version}.tar.gz
 # Source0-md5:	aead5b0c6707f3e2bd2259cb1db2b7cd
@@ -50,7 +50,7 @@ Requires:	%{name} = %{version}-%{release}
 Requires:	QtCore-devel >= 4.6
 Requires:	QtNetwork-devel >= 4.6
 Requires:	libstdc++-devel
-Requires:	qjson-devel >= 4.6
+Requires:	qjson-devel
 
 %description devel
 Development files for Qt4 %{name} library.
