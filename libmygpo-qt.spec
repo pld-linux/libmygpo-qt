@@ -88,7 +88,7 @@ Pliki nagłówkowe biblioteki Qt5 %{name}.
 
 %prep
 %setup -q -n %{name}.%{version}
-%patch1 -p1
+%patch -P1 -p1
 
 %build
 %if %{with qt4}
